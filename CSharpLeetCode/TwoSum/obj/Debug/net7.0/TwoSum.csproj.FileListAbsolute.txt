@@ -1,0 +1,15 @@
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.csproj.AssemblyReference.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.AssemblyInfoInputs.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.AssemblyInfo.cs
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.csproj.CoreCompileInputs.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/bin/Debug/net7.0/TwoSum
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/bin/Debug/net7.0/TwoSum.deps.json
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/bin/Debug/net7.0/TwoSum.runtimeconfig.json
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/bin/Debug/net7.0/TwoSum.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/bin/Debug/net7.0/TwoSum.pdb
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/refint/TwoSum.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.pdb
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/TwoSum.genruntimeconfig.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/PersonalProjects/LeetCode/CSharpLeetCode/TwoSum/obj/Debug/net7.0/ref/TwoSum.dll
