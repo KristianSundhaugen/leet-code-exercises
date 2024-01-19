@@ -1,3 +1,5 @@
 # .gitignore
 NeetCode/CSharp/ArraysAndHashing/ContainsDuplicate/bin/
 NeetCode/CSharp/ArraysAndHashing/ContainsDuplicate/obj/
+NeetCode/CSharp/ArraysAndHashing/ValidAnagram/bin/
+NeetCode/CSharp/ArraysAndHashing/ValidAnagram/obj/

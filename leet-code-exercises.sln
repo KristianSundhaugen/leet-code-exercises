@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArraysAndHashing", "ArraysA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainsDuplicate", "NeetCode\CSharp\ArraysAndHashing\ContainsDuplicate\ContainsDuplicate.csproj", "{79930121-6411-4038-9B4E-8D7135E9431B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "NeetCode\CSharp\ArraysAndHashing\ValidAnagram\ValidAnagram.csproj", "{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{79930121-6411-4038-9B4E-8D7135E9431B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79930121-6411-4038-9B4E-8D7135E9431B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79930121-6411-4038-9B4E-8D7135E9431B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +35,7 @@ Global
 		{CA9EE660-6FDA-49BD-85AD-57B500404C03} = {5DACA24B-6226-432D-AF66-783E470F299D}
 		{37646074-120E-43DA-85BD-9CEE887B79C0} = {CA9EE660-6FDA-49BD-85AD-57B500404C03}
 		{79930121-6411-4038-9B4E-8D7135E9431B} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
