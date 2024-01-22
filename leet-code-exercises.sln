@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "NeetCode\CSharp\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "NeetCode\CSharp\ArraysAndHashing\GroupAnagrams\GroupAnagrams.csproj", "{35D9A131-04D8-4AC9-A116-4A165F6F5D7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopKFrequentElements", "NeetCode\CSharp\ArraysAndHashing\TopKFrequentElements\TopKFrequentElements.csproj", "{669621E9-509D-4BE9-9DEE-831EA2E6A2A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{35D9A131-04D8-4AC9-A116-4A165F6F5D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35D9A131-04D8-4AC9-A116-4A165F6F5D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35D9A131-04D8-4AC9-A116-4A165F6F5D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669621E9-509D-4BE9-9DEE-831EA2E6A2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669621E9-509D-4BE9-9DEE-831EA2E6A2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669621E9-509D-4BE9-9DEE-831EA2E6A2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669621E9-509D-4BE9-9DEE-831EA2E6A2A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{93CC3A59-CA8C-4DC8-9931-FAA170F2B6D7} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{0A2D0895-4CCE-4133-95C5-A00EA384CDCD} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{35D9A131-04D8-4AC9-A116-4A165F6F5D7F} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{669621E9-509D-4BE9-9DEE-831EA2E6A2A5} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
