@@ -4,8 +4,8 @@
     {
         Solution solution = new Solution();
 
-        Console.WriteLine(solution.TopKFrequent(new int[] { 1 }, 2)); //Expected [1,2]
-        Console.WriteLine(solution.TopKFrequent(new int[] { 1, 1, 1, 2, 2, 3 }, 1)); //Expected [1]
+        Console.WriteLine(solution.TopKFrequent(new int[] { 4, 1, 1, 4, 2, 4, 3, 5, 2, 2, 4 }, 2)); //Expected [1,2]
+        Console.WriteLine(solution.TopKFrequent(new int[] { 1 }, 1)); //Expected [1]
     }
     public int[] TopKFrequent(int[] nums, int k)
     {
@@ -24,18 +24,31 @@
             }
         }
 
-        var pq = new PriorityQueue<int,int>();
+        var buckets = new List<int>[nums.Length + 1];
         foreach (var key in dictionary.Keys)
         {
-            pq.Enqueue(key,dictionary[key]);
-            if(pq.Count > k){
-                pq.Dequeue();
-            }   
+            int frequency = dictionary[key];
+            if (buckets[frequency] == null)
+            {
+                buckets[frequency] = new List<int>();
+            }
+            buckets[frequency].Add(key);
         }
 
-        int i2 = k;
-        while(pq.Count > 0){
-            arr[--i2] = pq.Dequeue();
+        int i2 = 0;
+        for (int i = buckets.Length - 1; i >= 0 && i2 < k; i--)
+        {
+            if (buckets[i] != null)
+            {
+                foreach (var num in buckets[i])
+                {
+                    arr[i2++] = num;
+                    if (i2 == k)
+                    {
+                        break;
+                    }
+                }
+            }
         }
 
         return arr;
