@@ -25,7 +25,7 @@
 
             if (!anagramGroups.ContainsKey(key))
             {
-                anagramGroups.Add(key,new List<string>());
+                anagramGroups.Add(key, new List<string>());
             }
 
             anagramGroups[key].Add(str);
@@ -34,7 +34,7 @@
         return anagramGroups.Values.ToList<IList<string>>();
     }
 
-        private static void PrintResult(IList<IList<string>> result)
+    private static void PrintResult(IList<IList<string>> result)
     {
         foreach (var group in result)
         {
