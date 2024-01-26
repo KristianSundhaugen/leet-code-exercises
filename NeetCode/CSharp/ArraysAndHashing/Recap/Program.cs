@@ -4,37 +4,27 @@
     {
         public static void Main()
         {
-            Console.WriteLine(Solution("anagram", "nagaram")); //Expected true
-            Console.WriteLine(Solution("rat", "car")); //Expected false
+            Console.WriteLine(Solution(new int[] { 1, 2, 3, 1 })); //Expected true
+            Console.WriteLine(Solution(new int[] { 1, 2, 3, 4 })); //Expected false
+            Console.WriteLine(Solution(new int[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 })); //Expected true
         }
 
-        public static bool Solution(string s, string t)
+        public static bool Solution(int[] nums)
         {
-            if (s.Length != t.Length)
+            HashSet<int> hash = new HashSet<int>();
+
+            for (int i = 0; i < nums.Length; i++)
             {
-                return false;
-            }
-
-            string sLower = s.ToLower();
-            string tLower = t.ToLower();
-
-            int[] sCharsArray = new int[26];
-            int[] tCharsArray = new int[26];
-
-            for(int i = 0; i<sLower.Length; i++){
-                sCharsArray[sLower[i]-'a']++;
-                tCharsArray[tLower[i]-'a']++;
-            }
-
-            for (int i = 0; i < sCharsArray.Length; i++)
-            {
-                if(sCharsArray[i] != tCharsArray[i]){
-                    return false;
+                if (hash.Contains(nums[i]))
+                {
+                    return true;
+                }
+                else
+                {
+                    hash.Add(nums[i]);
                 }
             }
-
-
-            return true;
+            return false;
         }
     }
 }
