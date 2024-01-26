@@ -4,27 +4,25 @@
     {
         public static void Main()
         {
-            Console.WriteLine(Solution(new int[] { 1, 2, 3, 1 })); //Expected true
-            Console.WriteLine(Solution(new int[] { 1, 2, 3, 4 })); //Expected false
-            Console.WriteLine(Solution(new int[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 })); //Expected true
+            int[] result1 = Solution(new int[] { 1,2,3,1 });
+            Console.WriteLine("[{0}]", string.Join(", ", result1)); //Expected [1,2,1,1,2,1]
+            int[] result2 = Solution(new int[] { 1, 3, 2, 1 });
+            Console.WriteLine("[{0}]", string.Join(", ", result2)); //Expected [1,3,2,1,1,3,2,1]
         }
 
-        public static bool Solution(int[] nums)
+        public static int[] Solution(int[] nums)
         {
-            HashSet<int> hash = new HashSet<int>();
+            int numsLength = nums.Length;
 
-            for (int i = 0; i < nums.Length; i++)
+            int[] answer = new int[nums.Length * 2];
+
+            for (int i = 0; i < numsLength; i++)
             {
-                if (hash.Contains(nums[i]))
-                {
-                    return true;
-                }
-                else
-                {
-                    hash.Add(nums[i]);
-                }
+                answer[i] = nums[i];
+                answer[i + numsLength] = nums[i];
             }
-            return false;
+
+            return answer;
         }
     }
 }
