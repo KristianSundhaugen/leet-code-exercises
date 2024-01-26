@@ -1,4 +1,4 @@
-﻿namespace ConcatenationOfArray
+﻿namespace Recap
 {
     public class Test
     {
