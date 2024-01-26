@@ -4,44 +4,37 @@
     {
         public static void Main()
         {
-
-            PrintResult(Solution(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" })); //Expected true
-            PrintResult(Solution(new string[] { "" })); //Expected false
-            PrintResult(Solution(new string[] { "a" })); //Expected true
+            Console.WriteLine(Solution("anagram", "nagaram")); //Expected true
+            Console.WriteLine(Solution("rat", "car")); //Expected false
         }
 
-        public static IList<IList<string>> Solution(string[] strs)
+        public static bool Solution(string s, string t)
         {
-            Dictionary<string, List<string>> anagramGroups = new();
-
-            foreach (string str in strs)
+            if (s.Length != t.Length)
             {
-                int[] count = new int[26];
-                foreach (char c in str)
-                {
-                    count[c - 'a']++;
-                }
-
-                string key = string.Join(",", count);
-
-                if (!anagramGroups.ContainsKey(key))
-                {
-                    anagramGroups.Add(key, new List<string>());
-                }
-
-                anagramGroups[key].Add(str);
+                return false;
             }
 
-            return anagramGroups.Values.ToList<IList<string>>();
-        }
-        private static void PrintResult(IList<IList<string>> result)
-        {
-            foreach (var group in result)
-            {
-                Console.Write($"[{string.Join(", ", group)}]");
+            string sLower = s.ToLower();
+            string tLower = t.ToLower();
+
+            int[] sCharsArray = new int[26];
+            int[] tCharsArray = new int[26];
+
+            for(int i = 0; i<sLower.Length; i++){
+                sCharsArray[sLower[i]-'a']++;
+                tCharsArray[tLower[i]-'a']++;
             }
 
-            Console.WriteLine();
+            for (int i = 0; i < sCharsArray.Length; i++)
+            {
+                if(sCharsArray[i] != tCharsArray[i]){
+                    return false;
+                }
+            }
+
+
+            return true;
         }
     }
 }
