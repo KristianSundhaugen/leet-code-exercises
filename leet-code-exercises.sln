@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceElementsWithGreatest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence", "NeetCode\CSharp\ArraysAndHashing\IsSubsequence\IsSubsequence.csproj", "{99F1C68F-1950-4113-A1EC-B61B0935E54D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "NeetCode\CSharp\ArraysAndHashing\LengthOfLastWord\LengthOfLastWord.csproj", "{167E0441-7356-468A-92C6-06A9D6B3BFAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{63565D94-4E63-4F51-9147-2771F4A7D76A} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{2A5526DC-0F7E-4DD6-BBA5-FE8A16ED62DE} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{167E0441-7356-468A-92C6-06A9D6B3BFAB} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
