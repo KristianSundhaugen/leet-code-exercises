@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence", "NeetCode\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "NeetCode\CSharp\ArraysAndHashing\LengthOfLastWord\LengthOfLastWord.csproj", "{167E0441-7356-468A-92C6-06A9D6B3BFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "NeetCode\CSharp\ArraysAndHashing\LongestCommonPrefix\LongestCommonPrefix.csproj", "{C5AA624C-41DC-4B40-82C6-62029DA68A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{167E0441-7356-468A-92C6-06A9D6B3BFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{2A5526DC-0F7E-4DD6-BBA5-FE8A16ED62DE} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{167E0441-7356-468A-92C6-06A9D6B3BFAB} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{C5AA624C-41DC-4B40-82C6-62029DA68A73} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
