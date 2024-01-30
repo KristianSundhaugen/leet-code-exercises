@@ -4,15 +4,17 @@ class Program
 {
     static bool ContainCommonItems(char[] arr1, char[] arr2)
     {
-        Dictionary<char, int> dict = new();
-
-        foreach(char item in arr2){
-            dict.Add(item,1);
+        if (arr1.Length == 0 || arr2.Length == 0)
+        {
+            return false;
         }
+
+        HashSet<char> dict = new(arr2);
 
         foreach (char item in arr1)
         {
-            if(dict.ContainsKey(item)){
+            if (dict.Contains(item))
+            {
                 return true;
             }
         }
