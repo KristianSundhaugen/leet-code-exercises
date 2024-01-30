@@ -1,0 +1,24 @@
+Given 2 arrays, create a function that let's a user
+know (true/false) whether these two arrays contain any common items
+
+Example
+arr1 = ['a','b','c','x'];
+arr2 = ['z','y','i'];
+return false
+
+arr1 = ['a','b','c','x'];
+arr2 = ['z','y','i'];
+return true;
+
+Input (char array)
+Output bool
+
+Bruteforce method would be to nest loops, where we loop over a and check all values in arr2 if any match
+Gives us a timecomplexity of O(n*m)
+
+My solution loops over arr2, putting it into a Dictionary, which gives a time complexity of O(m)
+Which is then used again to check arr1 towards that Dictionary, giving us a timecomplexity of O(n+m) = O(n)
+
+I belive it is not necessary to use a Dictionary, since we do not use the int value for anything. That is why we can use a HashSet instead.
+Which gives the same functionality, but less memory usage
+

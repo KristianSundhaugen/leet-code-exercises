@@ -31,6 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "NeetCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "NeetCode\CSharp\ArraysAndHashing\LongestCommonPrefix\LongestCommonPrefix.csproj", "{C5AA624C-41DC-4B40-82C6-62029DA68A73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UdemyCourse", "UdemyCourse", "{71A544D6-7BAE-4B2F-A7D6-B77A61000824}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{725CF755-8BF1-477F-AC74-05CCB02AF8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsCommonItem", "UdemyCourse\Exercises\ContainsCommonItem\ContainsCommonItem.csproj", "{22617289-7D34-4075-81A8-96E20245D983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +87,10 @@ Global
 		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AA624C-41DC-4B40-82C6-62029DA68A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22617289-7D34-4075-81A8-96E20245D983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22617289-7D34-4075-81A8-96E20245D983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22617289-7D34-4075-81A8-96E20245D983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22617289-7D34-4075-81A8-96E20245D983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +109,8 @@ Global
 		{99F1C68F-1950-4113-A1EC-B61B0935E54D} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{167E0441-7356-468A-92C6-06A9D6B3BFAB} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{C5AA624C-41DC-4B40-82C6-62029DA68A73} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{725CF755-8BF1-477F-AC74-05CCB02AF8F0} = {71A544D6-7BAE-4B2F-A7D6-B77A61000824}
+		{22617289-7D34-4075-81A8-96E20245D983} = {725CF755-8BF1-477F-AC74-05CCB02AF8F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
