@@ -1,0 +1,14 @@
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/bin/Debug/net8.0/PascalTriangle
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/bin/Debug/net8.0/PascalTriangle.deps.json
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/bin/Debug/net8.0/PascalTriangle.runtimeconfig.json
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/bin/Debug/net8.0/PascalTriangle.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/bin/Debug/net8.0/PascalTriangle.pdb
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.AssemblyInfoInputs.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.AssemblyInfo.cs
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.csproj.CoreCompileInputs.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/refint/PascalTriangle.dll
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.pdb
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/PascalTriangle.genruntimeconfig.cache
+/Users/kristian.sundhaugen@mittanbud.no/Documents/home/leet-code-exercises/NeetCode/CSharp/ArraysAndHashing/PascalTriangle/obj/Debug/net8.0/ref/PascalTriangle.dll
