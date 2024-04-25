@@ -4,8 +4,7 @@ class Program
 {
     static void SimpleExercise()
     {
-        System.Console.WriteLine("Hello:");
-        System.Console.WriteLine("Kristian Sundhaugen");
+        System.Console.WriteLine("2 + 2 = " + (2+2));
     }
 
     static void Main(string[] args)
