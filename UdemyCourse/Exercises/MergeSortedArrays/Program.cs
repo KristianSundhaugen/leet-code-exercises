@@ -14,11 +14,6 @@ class Program
             arrLength = arr2.Length;
         }
 
-        do{
-
-            count
-        } while (count <= arrLength);
-
         return [];
     }
 
