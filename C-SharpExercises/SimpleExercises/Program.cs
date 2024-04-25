@@ -4,10 +4,18 @@ class Program
 {
     static void SimpleExercise()
     {
-        System.Console.WriteLine("-1 + 4 * 6 = " + (-1 + 4 * 6));
-        System.Console.WriteLine("(35+5) % 7 = " + ((35+5) % 7));
-        System.Console.WriteLine("14 + -4 * 6 / 11 = " + (14 + -4 * 6 / 11));
-        System.Console.WriteLine("2 + 15 / 7 * 1 - 7 % 2 = " + (2 + 15 / 7 * 1 - 7 % 2));
+        int num1, num2, num3;
+
+        System.Console.WriteLine("Write first number:");
+        num1 = Convert.ToInt32(System.Console.ReadLine());
+        System.Console.WriteLine("Write first second:");
+        num2 = Convert.ToInt32(System.Console.ReadLine());
+        System.Console.WriteLine("Write first third:");
+        num3 = Convert.ToInt32(System.Console.ReadLine());
+
+        int result = num1 * num2 * num3;
+
+        System.Console.WriteLine("Result: {0} * {1} * {2} = {3}", num1, num2, num3, result);
     }
 
     static void Main(string[] args)
