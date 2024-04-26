@@ -4,18 +4,16 @@ class Program
 {
     static void SimpleExercise()
     {
-        int num1, num2;
+        Console.WriteLine("Write a number");
+        int digit = Convert.ToInt32(Console.ReadLine());
 
-        System.Console.WriteLine("Write first number:");
-        num1 = Convert.ToInt32(System.Console.ReadLine());
-        System.Console.WriteLine("Write first second:");
-        num2 = Convert.ToInt32(System.Console.ReadLine());
-
-        System.Console.WriteLine("Result: {0} + {1} = {2}", num1, num2, (num1+num2));
-        System.Console.WriteLine("Result: {0} - {1} = {2}", num1, num2, (num1-num2));
-        System.Console.WriteLine("Result: {0} * {1} = {2}", num1, num2, (num1*num2));
-        System.Console.WriteLine("Result: {0} / {1} = {2}", num1, num2, (num1/num2));
-        System.Console.WriteLine("Result: {0} mod {1} = {2}", num1, num2, (num1%num2));
+        for (int i = 1; i <= digit; i++){
+            if(i==1 || i == digit){
+                Console.WriteLine("{0}{0}{0}", digit);
+            } else {
+                Console.WriteLine("{0} {0}", digit);
+            }
+        }
     }
 
     static void Main(string[] args)
