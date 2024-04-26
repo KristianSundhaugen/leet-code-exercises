@@ -4,11 +4,18 @@ class Program
 {
     static void SimpleExercise()
     {
-        Console.WriteLine("Write a string");
-        string inputString = Console.ReadLine();
-        string lowerString = inputString.ToLower();
+        string longestString = "";
 
-        System.Console.WriteLine(lowerString);
+        Console.WriteLine("Write a sentence");
+        string inputString = Console.ReadLine();
+
+        foreach (var item in inputString.Split(" ")){
+            if(item.Length > longestString.Length){
+                longestString = item;
+            }    
+        }
+
+        System.Console.WriteLine(longestString);
     }
 
 
