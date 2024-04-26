@@ -6,17 +6,9 @@ class Program
     {
         Console.WriteLine("Write a string");
         string inputString = Console.ReadLine();
-        int stringLength = inputString.Length;
+        string lowerString = inputString.ToLower();
 
-        if (stringLength <= 0)
-        {
-            Console.WriteLine("String must be 1 or longer");
-            return;
-        }
-
-        char firstLetter = inputString[0];
-
-        System.Console.WriteLine(firstLetter + inputString + firstLetter);
+        System.Console.WriteLine(lowerString);
     }
 
 
