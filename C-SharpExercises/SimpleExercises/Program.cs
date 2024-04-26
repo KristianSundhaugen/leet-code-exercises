@@ -8,20 +8,15 @@ class Program
         string inputString = Console.ReadLine();
         int stringLength = inputString.Length;
 
-        if (stringLength <= 1)
+        if (stringLength <= 0)
         {
-            Console.WriteLine("First and last letters reversed");
-            Console.WriteLine(inputString);
+            Console.WriteLine("String must be 1 or longer");
             return;
         }
 
-        char startCharacter = inputString[0];
-        char endCharacter = inputString[stringLength - 1];
+        char firstLetter = inputString[0];
 
-        inputString = endCharacter + inputString.Substring(1, stringLength - 2) + startCharacter;
-
-        Console.WriteLine("First and last letters reversed");
-        Console.WriteLine(inputString);
+        System.Console.WriteLine(firstLetter + inputString + firstLetter);
     }
 
 
