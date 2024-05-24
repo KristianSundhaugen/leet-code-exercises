@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "UdemyCours
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortedArrays", "UdemyCourse\Exercises\MergeSortedArrays\MergeSortedArrays.csproj", "{561EE6F6-C208-40FC-87A5-49835B065437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateFromSortedArray", "NeetCode\CSharp\ArraysAndHashing\RemoveDuplicateFromSortedArray\RemoveDuplicateFromSortedArray.csproj", "{6C6E83B4-6544-4C4D-8676-CDF610ED461B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{561EE6F6-C208-40FC-87A5-49835B065437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{561EE6F6-C208-40FC-87A5-49835B065437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561EE6F6-C208-40FC-87A5-49835B065437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6E83B4-6544-4C4D-8676-CDF610ED461B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6E83B4-6544-4C4D-8676-CDF610ED461B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6E83B4-6544-4C4D-8676-CDF610ED461B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6E83B4-6544-4C4D-8676-CDF610ED461B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{3A3E3056-B139-4A89-80BA-B7ACE47D2C84} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{1B1ADDF8-9F93-479E-8125-2E547C96AF08} = {725CF755-8BF1-477F-AC74-05CCB02AF8F0}
 		{561EE6F6-C208-40FC-87A5-49835B065437} = {725CF755-8BF1-477F-AC74-05CCB02AF8F0}
+		{6C6E83B4-6544-4C4D-8676-CDF610ED461B} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
