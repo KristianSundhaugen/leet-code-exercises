@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateFromSortedAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetConcatenation", "NeetCode\CSharp\ArraysAndHashing\GetConcatenation\GetConcatenation.csproj", "{CE0CA232-AEA3-4852-910A-A76EB6E08034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseballGame", "NeetCode\CSharp\ArraysAndHashing\BaseballGame\BaseballGame.csproj", "{D440815F-D170-47F5-850C-CA9BF15551C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{CE0CA232-AEA3-4852-910A-A76EB6E08034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0CA232-AEA3-4852-910A-A76EB6E08034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE0CA232-AEA3-4852-910A-A76EB6E08034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D440815F-D170-47F5-850C-CA9BF15551C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D440815F-D170-47F5-850C-CA9BF15551C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D440815F-D170-47F5-850C-CA9BF15551C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D440815F-D170-47F5-850C-CA9BF15551C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{561EE6F6-C208-40FC-87A5-49835B065437} = {725CF755-8BF1-477F-AC74-05CCB02AF8F0}
 		{6C6E83B4-6544-4C4D-8676-CDF610ED461B} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{CE0CA232-AEA3-4852-910A-A76EB6E08034} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{D440815F-D170-47F5-850C-CA9BF15551C7} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
