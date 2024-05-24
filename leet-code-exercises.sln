@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetConcatenation", "NeetCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseballGame", "NeetCode\CSharp\ArraysAndHashing\BaseballGame\BaseballGame.csproj", "{D440815F-D170-47F5-850C-CA9BF15551C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "NeetCode\CSharp\ArraysAndHashing\ValidParentheses\ValidParentheses.csproj", "{F8E596FC-AA7C-4F38-8455-9BFC84799D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{D440815F-D170-47F5-850C-CA9BF15551C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D440815F-D170-47F5-850C-CA9BF15551C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D440815F-D170-47F5-850C-CA9BF15551C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E596FC-AA7C-4F38-8455-9BFC84799D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E596FC-AA7C-4F38-8455-9BFC84799D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E596FC-AA7C-4F38-8455-9BFC84799D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E596FC-AA7C-4F38-8455-9BFC84799D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +168,7 @@ Global
 		{6C6E83B4-6544-4C4D-8676-CDF610ED461B} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{CE0CA232-AEA3-4852-910A-A76EB6E08034} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 		{D440815F-D170-47F5-850C-CA9BF15551C7} = {37646074-120E-43DA-85BD-9CEE887B79C0}
+		{F8E596FC-AA7C-4F38-8455-9BFC84799D2E} = {37646074-120E-43DA-85BD-9CEE887B79C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4588B24-B3FB-4D89-AB9F-1BFC6BBCD49F}
